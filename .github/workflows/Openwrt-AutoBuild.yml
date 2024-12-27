@@ -124,7 +124,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo apt-get update -y
-        sudo apt-get upgrade-y
+        sudo apt-get upgrade -y
         sudo -E apt-get -qq update
         sudo -E apt-get -qq install build-essential clang llvm flex g++ gawk gcc-multilib gettext \
         git libncurses5-dev libssl-dev python2.7 python3-distutils python3-pyelftools python3-setuptools \
